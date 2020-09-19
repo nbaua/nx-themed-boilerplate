@@ -1,0 +1,7 @@
+type Query {
+  SayHi: String
+}
+
+type Mutation {
+  Greet(name: String): String
+}

@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "declaration": false,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "es2020",
+    "outDir": "../../dist/out-tsc",
+    "types": ["node"]
+  },
+  "angularCompilerOptions": {
+    "enableIvy": false
+  },
+  "files": ["src/main.ts", "src/polyfills.ts"]
+}
